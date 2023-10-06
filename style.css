@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, hsl(192, 24%, 23%), hsl(0, 6%, 23%));
+    color:whitesmoke
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+
+}
+.left, .right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+textarea {
+    width: 100%;
+    height: 28%;
+    background-color: white;
+    opacity: 0.2; /* Wheat with reduced opacity */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add some padding for spacing */
+    color: black;
+    font-size: medium;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+iframe{
+    width: 100%;
+    height: 95%;
+    background-color: white;
+    opacity: 0.5;
+    border:none;
+    padding: 10px ;
+    outline: 0;
+
+}
+label{
+    display: flex;
+    align-items: center;
+    background-color: rgb(7, 17, 26,0.1);
+   
+
+}
